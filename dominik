@@ -1,0 +1,80 @@
+<html lang="pl"><head>
+
+    <title>Atlas Ptaków </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="drogie samochody, zadanie 7">
+	<meta name="author" content="Dominik Bieroński">
+    
+   </head> 
+   <body>
+     <h1><b>Atlas Ptaków</b></h1>
+	
+	   <h2> Gil </h2>
+	
+	   <figure>
+           <img src="Gil.jpeg" alt="Gil">
+           <figcaption>Gil</figcaption>
+        </figure>
+	   
+       <p>Gil jest małym, drapieżnym ptakiem z rodziny gołębiowatych. Występuje na całym świecie, z wyjątkiem Antarktyki. Ptak ten ma błyszczące, czarne upierzenie, które jest lekko szarawe w tylnej części głowy. Ptaki te są bardzo aktywne i bardzo szybko poruszają się w powietrzu. Żyją one głównie w lasach i parkach, a także na polach i łąkach. Ptaki te są również znane ze swoich pięknych śpiewów, które są słyszane w całym lesie.</p>
+       
+	   <audio controls="controls">
+	    <source src="gil.mp3" type="audio/mpeg">
+	   </audio>
+	   
+	   <h2>Szpak</h2>
+	   
+	    <figure>
+             <img src="szpak.jpeg" alt="Szpak">
+             <figcaption>Szpak</figcaption>
+            </figure>
+	   
+	  <p>Szpak to gatunek ptaka z rodziny wróbli, występujący w całej Europie, w Azji Środkowej i na północnym wschodzie Afryki. Jego długość ciała wynosi od 14 do 17 cm, a jego masa wynosi od 20 do 30 g. Osobniki te mają czarny, biały i szary upierzenie, z ciemnym pokryciem na głowie i białymi plamami na skrzydłach. Szpak ma charakterystyczny śpiew, który można usłyszeć w wiosennych porankach. Żywi się on głównie ziarnami, owadami i jagodami. </p>
+	   
+	   <audio controls="controls">
+	    <source src="Szpak.mp3" type="audio/mpeg">
+	   </audio>
+	     
+	   <h2>Wilga</h2>
+	   
+            <figure>
+           <img src="wilga.jpeg" alt="Wilga">
+           <figcaption>Wilga</figcaption>
+            </figure>
+           
+	    <p>Wilga to duży, stały ptak drapieżny z rodziny sów, zamieszkujący tereny leśne w całej Europie i północnej Azji. Ptaki te są szerokie i masywne, z ciemną głową, białymi policzkami i ciemnymi plamami. Długość ciała wynosi od 41 do 52 cm, a rozpiętość skrzydeł od 107 do 130 cm. Wilgi żywią się głównie drobnymi ssakami i ptakami, ale mogą także polować na większe ofiary, takie jak króliki i dziki. Są to ptaki wieczorowe, które krążą wokół lasu w poszukiwaniu pożywienia i używają swoich szerokich skrzydeł do skutecznego łapania ofiar.</p>
+
+	    <audio controls="controls">
+	     <source src="Wilga.mp3" type="audio/mpeg">
+	    </audio>
+	   
+	    <h2>Śpiewak</h2>
+	   
+            <figure>
+             <img src="spiewak.jpeg" alt="Śpiewak">
+             <figcaption>Śpiewak</figcaption>
+            </figure>
+	   
+	   <p>Spiewak to gatunek ptaka z rodziny świerszczowatych. Występuje na terenach Europy, Azji i Afryki. Dość często można spotkać spiewaka w parkach i ogrodach, gdzie zwykle śpiewa swoje piękne i długie melodie. Jest to ptak aktywny zarówno w dzień, jak iw nocy. Spiewak dożywa około ośmiu lat. Jego dieta składa się głównie z owadów, jagód i nasion.</p>
+	   
+	   <audio controls="controls">
+	     <source src="Spiewak.mp3" type="audio/mpeg">
+	    </audio>
+	   
+	    <h2>Jaskółka</h2>
+	   
+            <figure>
+           <img src="jaskółka.jpeg" alt="Jaskółka">
+           <figcaption>Jaskółka</figcaption>
+            </figure>
+	   
+	   <p>Jaskółka to mały ptak z rodziny jaskółkowatych. Są one uważane za symbol wiosny, ponieważ ich pojawienie się na półkuli północnej oznacza, że koniec zimy. Mają skrzydła, które mogą się poruszać z prędkością do 60 mil na godzinę, a ich siwe, białe i szare pióra są łatwo rozpoznawalne. Jaskółki wykorzystują zakrzywione dzioby do żerowania na owadach, takich jak muchy, osy i chrząszcze. Żyją w grupach i gniazdują w szczelinach budynków lub dziuplach drzew.</p>
+	   
+	     <audio controls="controls">
+	     <source src="Jaskolka.mp3" type="audio/mpeg">
+	    </audio>
+
+   
+
+</body></html>
