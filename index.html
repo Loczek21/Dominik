@@ -1,44 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lamborghini Huracan</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
         }
+        h1 {
+            color: #FF4500;
+        }
         img {
-            max-width: 100%;
+            width: 50%;
+            max-width: 600px;
             height: auto;
+            display: block;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
-    <h1>Witaj na stronie Lamborghini Huracan</h1>
-    <img src="Lambo.JPG" alt="Lamborghini Huracan">
-    <p>Lamborghini Huracan to jedno z najbardziej wyjątkowych i ekscytujących samochodów na świecie.</p>
-
-    <h2>Dowiedz się więcej o Lamborghini Huracan</h2>
+    <h1>Lamborghini Huracan</h1>
     <p>
-        Lamborghini Huracan to supersamochód produkowany przez włoskiego producenta Lamborghini.
-        Jest wyposażony w potężny silnik V10 i osiąga niesamowite prędkości.
+        Lamborghini Huracan to jedno z najbardziej prestiżowych superaut na świecie. 
+        Jest napędzany potężnym silnikiem V10 i osiąga prędkość maksymalną ponad 320 km/h.
     </p>
-
-    <h2>Skontaktuj się z nami</h2>
-    <p>Jeśli masz pytania lub chciałbyś dowiedzieć się więcej, możesz skontaktować się z nami.</p>
-    
+    <img src="Lambo.JPG" alt="Lamborghini Huracan">
+    <p>
+        Jeśli jesteś zainteresowany zakupem tego niesamowitego samochodu, skontaktuj się z nami
+        przez e-mail: <a href="mailto:Lamboinfo@gmail.com">Lamboinfo@gmail.com</a>
+    </p>
     <script>
-        function sendEmail() {
-            var email = 'Lamboinfo@gmail.com';
-            var subject = 'Pytania dotyczące Lamborghini Huracan';
-            var body = 'Cześć, chciałbym dowiedzieć się więcej o Lamborghini Huracan.';
-            var mailtoLink = 'mailto:Lamboinfo@gmail.com' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-            window.location.href = mailtoLink;
-        }
     </script>
-
-    <button onclick="sendEmail()">Skontaktuj się z nami</button>
-
 </body>
 </html>
