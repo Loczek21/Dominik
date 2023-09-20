@@ -31,7 +31,12 @@
     <script>
         function sendEmail() {
             var email = 'Lamboinfo@gmail.com';
-            var mailtoLink = 'mailto:Lamboinfo@gmail.com'
+            var subject = 'Pytania dotyczące Lamborghini Huracan';
+            var body = 'Cześć, chciałbym dowiedzieć się więcej o Lamborghini Huracan.';
+            var mailtoLink = 'mailto:Lamboinfo@gmail.com' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+            window.location.href = mailtoLink;
+        }
+    </script>
 
     <button onclick="sendEmail()">Skontaktuj się z nami</button>
 
