@@ -1,0 +1,25 @@
+.prostokat{
+    margin-left:auto;
+    margin-right: auto;
+    width:350px;
+    
+    border-width: 60px;
+	border-style: solid; 
+	border-color: red;
+	border-radius: 5%;
+	text-align: center;
+	font-size: 30px;
+    background-color: white;
+}
+
+.znak{
+    margin-top:50px;
+    padding:15px;
+    margin-left: auto;
+    margin-right: auto;
+    height:450px;
+    width:450px;
+    border-radius: 50%;
+    border: solid red 30px;
+	background-color: white;
+}
