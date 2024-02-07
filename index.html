@@ -13,6 +13,18 @@
       padding: 50 px;
     }
   </style>
+  <script>
+  let visitCount = 0;
+
+  if (localStorage.getItem('visitCount')) {
+    visitCount = parseInt(localStorage.getItem('visitCount'));
+  }
+
+  visitCount++;
+  localStorage.setItem('visitCount', visitCount);
+
+  document.write('Liczba odwiedzin: ' + visitCount);
+  </script>
 </head>
 <body>
   <h1>Ciekawostki o Zimie</h1>
